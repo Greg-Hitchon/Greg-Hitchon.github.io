@@ -1,6 +1,6 @@
 .bg {
   position: relative;
-  opacity: 0.65;
+  opacity: 0.35;
   background-image: url(background.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -8,12 +8,30 @@
   height: 100%;
 }
 
+.github-link {
+  margin-right: 1%;
+}
+
+.github-image {
+  height: 40px;
+  width: 40px;
+}
+
 body,
 html {
   height: 100%;
   margin: 0;
-  font: 600 15px/1.8 "Lato", sans-serif;
+  font: 600 15px/1.8 "Georgia", serif;
   color: black;
+}
+
+.banner {
+  position: absolute;
+  left: 0;
+  top: 5%;
+  width: 100%;
+  text-align: right;
+  color: #000;
 }
 
 .container {
@@ -25,8 +43,20 @@ html {
   color: #000;
 }
 
+.header {
+  color: #FF5666;
+}
+
+.container p {
+  margin: 0
+}
+
+.text {
+  color: #16425B;
+}
+
 .title {
-  color: #000;
+  color: #FF5666;
   font-size: 36px;
   letter-spacing: 3px;
 }
